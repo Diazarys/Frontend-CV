@@ -1,0 +1,35 @@
+.row{
+    padding:20px;
+    background-color: #15171a;
+}
+.contenedor{
+    width:auto;
+}
+.parte1,.parte2{
+    display: inline-block;
+    text-align: justify;
+}
+
+.img-proyecto{
+    box-shadow: 10px 10px 30px #000000;
+    
+}
+
+#gif{
+    background: url("../../../assets/img/200.gif");
+}
+
+#neon{
+    color: rgb(0, 0, 0);
+    text-shadow:
+      0 0 7px rgb(100, 100, 100),
+      0 0 10px rgb(100, 100, 100),
+      0 0 21px #fff,
+      0 0 40px rgb(0, 153, 255),
+      0 0 82px rgb(0, 153, 255),
+      0 0 92px rgb(0, 153, 255),
+      0 0 102px rgb(0, 153, 255),
+      0 0 151px rgb(0, 153, 255);
+  
+}
+

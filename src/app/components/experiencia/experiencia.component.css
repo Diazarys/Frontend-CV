@@ -1,0 +1,49 @@
+.row{
+    padding: 20px;
+    
+ }
+ div{
+    background:#15171a;
+ }
+ h1,h3{
+    display: inline;
+ }
+ 
+#neon{
+   
+   color: rgb(0, 0, 0);
+   text-shadow:
+     0 0 7px rgb(100, 100, 100),
+     0 0 10px rgb(100, 100, 100),
+     0 0 21px #fff,
+     0 0 40px rgb(0, 153, 255),
+     0 0 82px rgb(0, 153, 255),
+     0 0 92px rgb(0, 153, 255),
+     0 0 102px rgb(0, 153, 255),
+     0 0 151px rgb(0, 153, 255);
+ 
+}
+#neon{
+   animation: flicker 6.0s infinite alternate;
+   color: #fff;
+}
+@keyframes flicker {
+    
+   0%, 18%, 22%, 25%, 53%, 57%, 100% {
+ 
+       text-shadow:
+       0 0 4px #fff,
+       0 0 11px #fff,
+       0 0 19px #fff,
+       0 0 40px rgb(19, 71, 168),
+       0 0 80px rgb(59, 19, 105),
+       0 0 90px rgb(8, 13, 80),
+       0 0 100px rgb(21, 46, 155),
+       0 0 150px rgb(51, 39, 102);
+   
+   }
+   
+   20%, 24%, 55% {        
+       text-shadow: none;
+   }    
+ }
